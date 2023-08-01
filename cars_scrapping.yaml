@@ -134,4 +134,3 @@ dependencies:
       - websockets==10.4
       - wsproto==1.2.0
       - zipp==3.15.0
-prefix: F:\Anaconda\envs\cars

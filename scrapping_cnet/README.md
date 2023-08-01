@@ -1,9 +1,16 @@
 # Credits
 **Credits to theriley106 for the idea of using WhisperAI for captcha solving - https://github.com/theriley106/WhisperCaptcha/tree/main**
 
+# Installation
+A `cars_scrapping.yaml` is provided to create a conda environment with the packages and versions used. This environment is also valid for the `scrapping_ao` code.
+
 # Scrapping_cnet
-Two scripts are used for scrapping a famous car listing website: `recaptcha_solver.py` and `scrapping_cnet.py`. 
+The `scrapping_cnet.py` is a Python script able to scrap car info and prices from car listings of a famous Spanish car listings website. (car model, brand, km, price, year...)
+
 This web scrapping is based in `Selenium` using `Undetected Chromedriver`. It could be possible to scrap it via API scrapping POST request but I did not manage to configure it properly thus I got access denied. However it was a good exercise to use Selenium. Of course this solution could be implemented in `Puppeteer` or other similar solutions.
+
+Two files are provided to do so: `recaptcha_solver.py` and `scrapping_cnet.py`. 
+
 ## `recaptcha_solver.py`
 The script implements the nice solution proposed in (https://github.com/theriley106/WhisperCaptcha/tree/main) as a function `recaptchav2_solver`. 
 
